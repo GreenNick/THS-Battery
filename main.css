@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#fixed-header {
+  position: fixed;
+  width: 100%;
+  background: #4CAF50;
+  margin-left: 224px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+  display: none;
+}
+
+#fixed-header h1 {
+  margin: auto;
+  font-weight: normal;
+  font-size: 24px;
+  margin-left: 30px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+#header {
+  height: 300px;
+  background: #4CAF50;
+  margin-left: 222px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  text-align: center;
+}
+
+#header h1 {
+  padding-top: 75px;
+  font-size: 48px;
+  font-weight: normal;
+}
+
+#header h2 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.sidebar {
+  font-family: 'Open Sans', sans-serif;
+  background: #FFF;
+  border: 1px solid rgba(0,0,0,0.2);
+  height: 100%;
+  width: 222px;
+  position: fixed;
+}
+
+nav a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #212121;
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-right: 10px;
+  display: block;
+}
+
+.sidebar h4 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #388E3C;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+
+nav a:hover {
+  color: #4CAF50;
+}
+
+#space {
+  padding-top: 100px;
+}
+
+.page-content {
+  background: rgba(0,0,0,0.05);
+  margin-left: 222px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #212121;
+}
+
+.page-content h3 {
+  margin-left: 25%;
+  font-size: 32px;
+  color: #4CAF50;
+  padding-bottom: 30px;
+  padding-top: 60px;
+  font-weight: normal;
+}
+
+h3 > span {
+  padding: 0.1em 0.25em;
+  border: solid 3px #4CAF50;
+}
+
+.page-content > p {
+  margin-left: 25%;
+  width: 50%;
+}
+
+.page-content ul {
+  margin-left: 28%;
+  list-style: none;
+  padding-left: 5px;
+  border-left: 3px solid #4CAF50;
+}
+
+#collection-area p {
+  width: 35%;
+}
+
+#recycling-centers {
+  display: flex;
+  flex-direction: column;
+}
+
+#recycling-centers span {
+  flex-basis: 100%;
+}
+
+#recycling-centers a {
+  color: #212121;
+	text-decoration: none;
+}
+
+#recycling-centers a:hover {
+	color: #4CAF50;
+}
+
+#recycling-centers p {
+	color: #757575;
+  width: 350px
+}
+
+.locations {
+  margin-left: 28%;
+  margin-bottom: 40px;
+	padding-left: 5px;
+  border-left: 3px solid #4CAF50;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#footer {
+  margin-left: 222px;
+  height: 150px;
+  background: #4CAF50;
+  text-align: center;
+  font-size: 18px;
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#footer p {
+  position: relative;
+  top: 50px;
+}
