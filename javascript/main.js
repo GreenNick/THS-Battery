@@ -2,7 +2,7 @@ $(function() {
   var distance = $('.page-content').offset().top;
 
   $(window).scroll(function() {
-    if($(window).scrollTop() > distance - 250) {
+    if($(window).scrollTop() > distance) {
       $('#header').slideUp("slow");
       $('#fixed-header').slideDown("slow");
     }
